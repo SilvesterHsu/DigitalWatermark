@@ -7,10 +7,10 @@ close
 clc
 cprintf('text','*********************************************\n');
 % ¼ÓÔØÔØÌåÍ¼Ïñ(image)Óë´ıÒş²ØÍ¼Ïñ(info)
-addr=strcat(char(pwd),'/image.bmp');
-image=double(rgb2gray(imread(addr)));
-addr=strcat(char(pwd),'/info.bmp');
-info=double(rgb2gray(imread(addr)));
+addr=strcat(char(pwd),'/image.jpg');
+image=double(imread(addr));
+addr=strcat(char(pwd),'/info.jpg');
+info=double(imread(addr));
 
 subplot(241);
 imshow(image,[]);
